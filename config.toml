@@ -30,7 +30,7 @@ weight = 2
 
 [[menu.main]]
 name = "Contribuez !"
-url = "https://github.com/govpf/helpme"
+url = "https://github.com/govpf/helpthemall"
 weight = 3
 
 #[[menu.main]]
