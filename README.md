@@ -6,7 +6,7 @@ La procédure d'installation est accessible [via ce lien](https://gohugo.io/gett
 
 ## Contenu
 
-Le contenu du la documentation se trouve dans le répertoire "content".
+Le contenu de la documentation se trouve dans le répertoire "content".
 
 ### Les sujets
 
@@ -23,7 +23,7 @@ weight: 1
 ---
 ```
 
-Le weight indique la position du sujet par rapport aux autres sujets.
+Le paramètre weight indique la position du sujet par rapport aux autres sujets.
 
 ### Les articles
 
