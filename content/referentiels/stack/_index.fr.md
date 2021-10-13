@@ -43,12 +43,17 @@ Les équipes ont le choix de prendre les outils ci-dessous ou de proposer de nou
 
 #### Framework
 
-| Nom         | Version                                               |
-|-------------|-------------------------------------------------------|
-| Spring Boot | Dernière version stable (LTS si elle existe)          |
-| Angular     | Dernière version long-term support (LTS)              |
-| React       | Dernière version stable (LTS si elle existe)          |
-| Vue.js      | Dernière version stable (LTS si elle existe)          |
+| Nom            | Version                                               |
+|----------------|-------------------------------------------------------|
+| Spring Boot    | Dernière version stable (LTS si elle existe)          |
+| Angular        | Dernière version long-term support (LTS)              |
+| React          | Dernière version stable (LTS si elle existe)          |
+| Vue.js         | Dernière version stable (LTS si elle existe)          |
+| **Flask**      | **En expérimentation**                                |
+| **FastAPI**    | **En expérimentation**                                |
+| **OpenLayers** | **En expérimentation**                                |
+| **Leaflet**    | **En expérimentation**                                |
+| **Tensorflow** | **En expérimentation**                                |
 
 #### Outils de versionning
 
@@ -67,14 +72,14 @@ Nous avons deux outils de versionning actifs : https://gitlab.gov.pf et https://
 | PostgreSQL    | Dernière version stable (LTS si elle existe)          |
 | MongoDB       | Version 5                                             |
 | Elasticsearch | Version 7                                             |
-| Neo4J         | Version 4.3 (en expérimentation)                      |
-| Redis         | Version 6.2 (en expérimentation)                      |
+| **Neo4J**     | **En expérimentation**                                |
+| **Redis**     | **En expérimentation**                                |
 
 #### Message Queue
 
 | Nom           | Version                                               |
 |---------------|-------------------------------------------------------|
-| RabbitMQ      | Dernière version stable (en expérimentation)          |
+| **RabbitMQ**  | **En expérimentation**                                |
 
 #### Infrastructure
 
@@ -104,22 +109,42 @@ Mieux vaut utiliser les conteneurs que nous construisons (au lieu de conteneurs 
 
 Les services transverses sont mutualisés à la plupart des services numériques en production.
 
-| Nom           | Description                                                                    |
-|---------------|--------------------------------------------------------------------------------|
-| Gitlab        | Gestionnaire de code source (en expérimentation)                               |
-| Github        | Gestionnaire de code source (en expérimentation)                               |
-| Tefenua       | Service de cartographie                                                        |
-| Keycloak      | Provider d'identité (Version 4.12)                                             |
-| Openfisca     | Moteur de calcul centralisé                                                    |
-| Alfresco      | Gestionnaire électronique de documents                                         |
-| Odoo          | ERP/CRM                                                                        |
-| Payzen        | Paiement en ligne                                                              |
-| Timestamp     | Plateforme SaaS d'horodatage                                                   |
-| Artifactory   | Gestionnaire d'artefact, utilisé aussi pour les échanges de données extérieurs |
-| Gravitee      | Gestionnaire d'API (en expérimentation)                                        |
-| CKAN          | Gestionnaire de stockage et de distribution de données (en expérimentation)    |
-| SendingBlue   | Plateforme Saas de messagerie (en expérimentation)                             |
-| Mailjet       | Plateforme Saas de messagerie (en expérimentation)                             |
+| Nom             | Description                                                                    |
+|-----------------|--------------------------------------------------------------------------------|
+| Gitlab          | Gestionnaire de code source                                                    |
+| Github          | Gestionnaire de code source                                                    |
+| Tefenua         | Service de cartographie                                                        |
+| Keycloak        | Provider d'identité (Version 4.12)                                             |
+| Openfisca       | Moteur de calcul centralisé                                                    |
+| Alfresco        | Gestionnaire électronique de documents                                         |
+| Odoo            | ERP/CRM                                                                        |
+| Payzen          | Paiement en ligne                                                              |
+| Timestamp       | Plateforme SaaS d'horodatage                                                   |
+| Artifactory     | Gestionnaire d'artefact, utilisé aussi pour les échanges de données extérieurs |
+| **Gravitee**    | **En expérimentation**                                                         |
+| **CKAN**        | **En expérimentation**                                                         |
+| **SendingBlue** | **En expérimentation**                                                         |
+| **Mailjet**     | **En expérimentation**                                                         |
+
+#### Les CMS
+
+| Nom           | Version                                               |
+|---------------|-------------------------------------------------------|
+| Strapi        | Dernière version stable                               |
+| Wordpress     | Dernière version stable                               |
+
+{{% notice info %}}
+On veillera à limiter le nombre de plugins Wordpress, aussi, une validation des plugins sera demandé lors du processus de mise en production.
+{{% /notice %}}
+
+### Les autres services
+
+| Nom                   | Version                                               |
+|-----------------------|-------------------------------------------------------|
+| Démarches simplifiées | Dernière version stable                               |
+| Talend                | Dernière version stable                               |
+| ArcGis                | Dernière version stable                               |
+| Jasper                | Dernière version stable                               |
 
 ### Stack technique dépréciée
 
