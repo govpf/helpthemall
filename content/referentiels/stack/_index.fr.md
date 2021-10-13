@@ -1,6 +1,6 @@
 ---
 title: "Un mot sur la stack technique"
-draft: false
+draft: true
 weight: 1
 date: 2021-10-09T11:02:05+06:00
 lastmod: 2021-10-10T7:37:26+06:00
@@ -111,8 +111,8 @@ Les services transverses sont mutualisés à la plupart des services numériques
 
 | Nom             | Description                                                                    |
 |-----------------|--------------------------------------------------------------------------------|
-| Gitlab          | Gestionnaire de code source                                                    |
-| Github          | Gestionnaire de code source                                                    |
+| Gitlab          | Gestionnaire de code source (instance privée)                                  |
+| Github          | Gestionnaire de code source (instance publique)                                |
 | Tefenua         | Service de cartographie                                                        |
 | Keycloak        | Provider d'identité (Version 4.12)                                             |
 | Openfisca       | Moteur de calcul centralisé                                                    |

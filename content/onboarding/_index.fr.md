@@ -5,6 +5,9 @@ icon: "ti-star"
 draft: false
 type: docs
 weight: 1
+date: 2021-10-09T11:02:05+06:00
+lastmod: 2021-10-13T7:37:26+06:00
+keywords: ["onboarding", "collaborateur", "expérience"]
 ---
 **Nous savons que le processus d'embarquement ("onboarding") est une étape importante qu'il ne faut surtout pas râter afin de garantir une excellente expérience au sein du SIPf.**
 
