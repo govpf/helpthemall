@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://govpf.netlify.app/"
+baseURL = "https://helpme.gov.pf/"
 # theme
 theme = "dot"
 # site title
